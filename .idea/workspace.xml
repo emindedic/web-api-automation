@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="43a9576a-e4ae-4972-91f7-3819d4ef2796" name="Default Changelist" comment="" />
+    <list default="true" id="43a9576a-e4ae-4972-91f7-3819d4ef2796" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -14,6 +17,7 @@
     <session id="-1778161531">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
+          <entry key="project.closed" value="1" />
           <entry key="project.open.time.11" value="1" />
           <entry key="project.opened" value="1" />
         </counts>
@@ -30,13 +34,13 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="671" />
+          <entry key="java" value="917" />
           <entry key="xml" value="18" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="671" />
+          <entry key="JAVA" value="917" />
           <entry key="XML" value="18" />
         </counts>
       </usages-collector>
@@ -53,11 +57,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/Get200.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="282">
-              <caret line="51" lean-forward="true" selection-start-line="11" selection-start-column="4" selection-end-line="51" />
+            <state relative-caret-position="-89">
+              <caret line="15" column="9" lean-forward="true" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="9" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -77,11 +81,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/Get401.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="282">
-              <caret line="20" column="44" selection-start-line="20" selection-start-column="44" selection-end-line="20" selection-end-column="44" />
+            <state relative-caret-position="528">
+              <caret line="41" column="44" selection-start-line="41" selection-start-column="44" selection-end-line="41" selection-end-column="44" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -101,24 +105,29 @@
   <component name="FindInProjectRecents">
     <dirStrings>
       <dir>$PROJECT_DIR$/src/test/java</dir>
+      <dir>$PROJECT_DIR$</dir>
     </dirStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/test/java/Get200.java" />
         <option value="$PROJECT_DIR$/src/test/java/Get404.java" />
         <option value="$PROJECT_DIR$/src/test/java/Get401.java" />
+        <option value="$PROJECT_DIR$/src/test/java/Get200.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="400" />
-    <option name="y" value="32" />
+    <option name="x" value="81" />
+    <option name="y" value="23" />
     <option name="width" value="1359" />
     <option name="height" value="787" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -137,12 +146,6 @@
               <item name="WebApiAutomation" type="b2602c69:ProjectViewProjectNode" />
               <item name="WebApiAutomation" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="WebApiAutomation" type="b2602c69:ProjectViewProjectNode" />
-              <item name="WebApiAutomation" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="WebApiAutomation" type="b2602c69:ProjectViewProjectNode" />
@@ -169,7 +172,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1544990619318" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1545027753650" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -183,7 +186,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.Get401">
+  <component name="RunManager" selected="JUnit.Get200">
     <configuration name="Get200" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="WebApiAutomation" />
       <option name="PACKAGE_NAME" value="" />
@@ -237,11 +240,11 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.Get200" />
+        <item itemvalue="JUnit.Get200.rateLimitReturns200" />
         <item itemvalue="JUnit.Get401" />
         <item itemvalue="JUnit.Get404" />
-        <item itemvalue="JUnit.Get200" />
         <item itemvalue="JUnit.Get200.baseUrlReturns200" />
-        <item itemvalue="JUnit.Get200.rateLimitReturns200" />
       </list>
     </recent_temporary>
   </component>
@@ -259,27 +262,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Get200_rateLimitReturns200 - 2018.12.16 at 20h 21m 09s.xml">
-      <configuration name="Get200.rateLimitReturns200" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Get200 - 2018.12.16 at 20h 21m 21s.xml">
-      <configuration name="Get200" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Get200 - 2018.12.16 at 20h 28m 22s.xml">
-      <configuration name="Get200" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Get200 - 2018.12.16 at 20h 40m 23s.xml">
-      <configuration name="Get200" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Get200_baseUrlReturns200 - 2018.12.16 at 20h 40m 37s.xml">
-      <configuration name="Get200.baseUrlReturns200" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Get200 - 2018.12.16 at 20h 43m 32s.xml">
-      <configuration name="Get200" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Get200_baseUrlReturns200 - 2018.12.16 at 20h 43m 46s.xml">
-      <configuration name="Get200.baseUrlReturns200" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="Get200 - 2018.12.16 at 20h 45m 08s.xml">
       <configuration name="Get200" configurationId="JUnit" />
     </history-entry>
@@ -288,6 +270,27 @@
     </history-entry>
     <history-entry file="Get404 - 2018.12.16 at 20h 59m 24s.xml">
       <configuration name="Get404" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Get401 - 2018.12.16 at 21h 01m 38s.xml">
+      <configuration name="Get401" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Get401 - 2018.12.16 at 21h 03m 35s.xml">
+      <configuration name="Get401" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Get200 - 2018.12.17 at 07h 03m 19s.xml">
+      <configuration name="Get200" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Get200 - 2018.12.17 at 07h 08m 36s.xml">
+      <configuration name="Get200" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Get200 - 2018.12.17 at 07h 13m 06s.xml">
+      <configuration name="Get200" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Get200 - 2018.12.17 at 07h 13m 50s.xml">
+      <configuration name="Get200" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Get200 - 2018.12.17 at 07h 14m 52s.xml">
+      <configuration name="Get200" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TodoView">
@@ -300,7 +303,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="10" y="26" width="1359" height="787" extended-state="0" />
+    <frame x="202" y="23" width="1359" height="787" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Image Layers" />
@@ -308,15 +311,15 @@
       <window_info id="UI Designer" />
       <window_info id="Capture Tool" />
       <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24981017" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24981017" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" weight="0.3294964" />
-      <window_info anchor="bottom" id="Event Log" sideWeight="0.50721335" side_tool="true" visible="true" weight="0.3294964" />
-      <window_info anchor="bottom" id="Messages" sideWeight="0.49278665" weight="0.3294964" />
+      <window_info anchor="bottom" id="Event Log" sideWeight="0.50949126" side_tool="true" weight="0.3294964" />
+      <window_info anchor="bottom" id="Messages" sideWeight="0.49050874" weight="0.3294964" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49962035" weight="0.3294964" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49278665" visible="true" weight="0.3294964" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49050874" weight="0.3294964" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -342,16 +345,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/Get200.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="282">
-          <caret line="51" lean-forward="true" selection-start-line="11" selection-start-column="4" selection-end-line="51" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/Get404.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="124">
@@ -364,8 +357,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/Get401.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="282">
-          <caret line="20" column="44" selection-start-line="20" selection-start-column="44" selection-end-line="20" selection-end-column="44" />
+        <state relative-caret-position="528">
+          <caret line="41" column="44" selection-start-line="41" selection-start-column="44" selection-end-line="41" selection-end-column="44" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/Get200.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-89">
+          <caret line="15" column="9" lean-forward="true" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

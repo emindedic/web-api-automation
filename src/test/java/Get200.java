@@ -7,9 +7,8 @@ import org.testng.Assert;
 
 import java.io.IOException;
 
-public class Get200 {
+public class Get200 extends BaseClass {
 
-    public static final String BASE_ENDPOINT = "https://api.github.com";
 
     HttpClient client = HttpClientBuilder.create().build();
 
@@ -35,7 +34,6 @@ public class Get200 {
         Assert.assertEquals(actuasStatus,200);
 
     }
-
 
     @Test
     public void searchRepoReturns200() throws IOException {

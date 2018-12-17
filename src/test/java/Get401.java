@@ -7,8 +7,8 @@ import org.testng.Assert;
 
 import java.io.IOException;
 
-public class Get401 {
-    public static final String BASE_ENDPOINT = "https://api.github.com";
+public class Get401 extends BaseClass{
+
 
     HttpClient client = HttpClientBuilder.create().build();
 
