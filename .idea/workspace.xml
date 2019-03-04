@@ -2,8 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="43a9576a-e4ae-4972-91f7-3819d4ef2796" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/BodyTestWithSimpleMap.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApiAutomation.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/BaseClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/BaseClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Get200.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Get200.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Get401.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Get401.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Get404.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Get404.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/BaseClass.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/BaseClass.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Get200.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Get200.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Get401.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Get401.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -13,55 +23,57 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FUSProjectUsageTrigger">
-    <session id="-1778161531">
-      <usages-collector id="statistics.lifecycle.project">
-        <counts>
-          <entry key="project.closed" value="1" />
-          <entry key="project.open.time.11" value="1" />
-          <entry key="project.opened" value="1" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.open">
-        <counts>
-          <entry key="java" value="3" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.open">
-        <counts>
-          <entry key="JAVA" value="3" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.edit">
-        <counts>
-          <entry key="java" value="917" />
-          <entry key="xml" value="18" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.edit">
-        <counts>
-          <entry key="JAVA" value="917" />
-          <entry key="XML" value="18" />
-        </counts>
-      </usages-collector>
-    </session>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/web_api_automation$Get200_baseUrlReturns200.ic" NAME="Get200.baseUrlReturns200 Coverage Results" MODIFIED="1548083212429" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
+            <state relative-caret-position="420">
+              <caret line="28" column="21" selection-start-line="28" selection-start-column="21" selection-end-line="28" selection-end-column="21" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/target/test-classes/BaseClass.class">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/target/test-classes/Get200.class">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/target/test-classes/Get404.class">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/BodyTestWithSimpleMap.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="95">
+              <caret line="12" column="61" selection-start-line="12" selection-start-column="61" selection-end-line="12" selection-end-column="61" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/Get200.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-89">
-              <caret line="15" column="9" lean-forward="true" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="9" />
+            <state relative-caret-position="289">
+              <caret line="29" column="16" selection-start-line="29" selection-start-column="16" selection-end-line="29" selection-end-column="16" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -72,8 +84,20 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/Get404.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="124">
-              <caret line="12" column="59" lean-forward="true" selection-start-line="10" selection-start-column="4" selection-end-line="12" selection-end-column="59" />
+            <state relative-caret-position="240">
+              <caret line="23" selection-start-line="23" selection-end-line="23" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/BaseClass.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="163">
+              <caret line="14" column="35" lean-forward="true" selection-start-line="14" selection-start-column="35" selection-end-line="14" selection-end-column="35" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -84,8 +108,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/Get401.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="528">
-              <caret line="41" column="44" selection-start-line="41" selection-start-column="44" selection-end-line="41" selection-end-column="44" />
+            <state relative-caret-position="-83">
+              <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -114,65 +138,94 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/test/java/Get404.java" />
         <option value="$PROJECT_DIR$/src/test/java/Get401.java" />
+        <option value="$PROJECT_DIR$/src/test/java/BodyTestWithSimpleMap.java" />
+        <option value="$PROJECT_DIR$/src/test/java/Get404.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/test/java/BaseClass.java" />
         <option value="$PROJECT_DIR$/src/test/java/Get200.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="81" />
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="42" />
     <option name="y" value="23" />
-    <option name="width" value="1359" />
-    <option name="height" value="787" />
+    <option name="width" value="1280" />
+    <option name="height" value="716" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
-    <navigator proportions="" version="1">
+    <navigator currentView="Scope" currentSubView="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope" proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
-      <pane id="ProjectPane">
-        <subPane>
+      <pane id="Scope">
+        <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
           <expand>
             <path>
-              <item name="WebApiAutomation" type="b2602c69:ProjectViewProjectNode" />
-              <item name="WebApiAutomation" type="462c0819:PsiDirectoryNode" />
+              <item name="web-api-automation" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="WebApiAutomation" type="2674bda8:ScopeViewTreeModel$GroupNode" />
             </path>
             <path>
-              <item name="WebApiAutomation" type="b2602c69:ProjectViewProjectNode" />
-              <item name="WebApiAutomation" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="web-api-automation" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="WebApiAutomation" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
             </path>
             <path>
-              <item name="WebApiAutomation" type="b2602c69:ProjectViewProjectNode" />
-              <item name="WebApiAutomation" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="web-api-automation" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="WebApiAutomation" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="test" type="9f88c78c:ScopeViewTreeModel$FileNode" />
             </path>
             <path>
-              <item name="WebApiAutomation" type="b2602c69:ProjectViewProjectNode" />
-              <item name="WebApiAutomation" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="WebApiAutomation" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="web-api-automation" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="WebApiAutomation" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="test" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="web-api-automation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="web-api-automation" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="web-api-automation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="web-api-automation" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="web-api-automation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="web-api-automation" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1545027753650" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551729533992" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -186,31 +239,12 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.Get200">
+  <component name="RunManager" selected="TestNG.Get200">
     <configuration name="Get200" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="WebApiAutomation" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="Get200" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Get200.baseUrlReturns200" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="WebApiAutomation" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="Get200" />
-      <option name="METHOD_NAME" value="baseUrlReturns200" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Get200.rateLimitReturns200" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="WebApiAutomation" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="Get200" />
-      <option name="METHOD_NAME" value="rateLimitReturns200" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -219,32 +253,57 @@
       <module name="WebApiAutomation" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="Get401" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Get404" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Get200" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="WebApiAutomation" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="Get404" />
+      <option name="MAIN_CLASS_NAME" value="Get200" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Get200.userReturns401" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="WebApiAutomation" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="Get200" />
+      <option name="METHOD_NAME" value="userReturns401" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Get401" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="WebApiAutomation" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="Get401" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.Get200.baseUrlReturns200" />
       <item itemvalue="JUnit.Get200" />
-      <item itemvalue="JUnit.Get200.rateLimitReturns200" />
-      <item itemvalue="JUnit.Get404" />
       <item itemvalue="JUnit.Get401" />
+      <item itemvalue="TestNG.Get401" />
+      <item itemvalue="TestNG.Get200.userReturns401" />
+      <item itemvalue="TestNG.Get200" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.Get200" />
-        <item itemvalue="JUnit.Get200.rateLimitReturns200" />
+        <item itemvalue="TestNG.Get200" />
+        <item itemvalue="TestNG.Get401" />
         <item itemvalue="JUnit.Get401" />
-        <item itemvalue="JUnit.Get404" />
-        <item itemvalue="JUnit.Get200.baseUrlReturns200" />
+        <item itemvalue="TestNG.Get200.userReturns401" />
+        <item itemvalue="JUnit.Get200" />
       </list>
     </recent_temporary>
   </component>
@@ -262,35 +321,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Get200 - 2018.12.16 at 20h 45m 08s.xml">
+    <history-entry file="Get200 - 2019.02.25 at 19h 29m 42s.xml">
       <configuration name="Get200" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Get200 - 2018.12.16 at 20h 56m 28s.xml">
+    <history-entry file="Get200 - 2019.03.04 at 20h 47m 01s.xml">
       <configuration name="Get200" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Get404 - 2018.12.16 at 20h 59m 24s.xml">
-      <configuration name="Get404" configurationId="JUnit" />
+    <history-entry file="Get200 - 2019.03.04 at 20h 53m 53s.xml">
+      <configuration name="Get200" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Get401 - 2018.12.16 at 21h 01m 38s.xml">
+    <history-entry file="Get200 - 2019.03.04 at 20h 56m 01s.xml">
+      <configuration name="Get200" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Get200 - 2019.03.04 at 20h 56m 20s.xml">
+      <configuration name="Get200" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Get200_userReturns401 - 2019.03.04 at 20h 56m 40s.xml">
+      <configuration name="Get200.userReturns401" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="Get401 - 2019.03.04 at 20h 57m 43s.xml">
       <configuration name="Get401" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Get401 - 2018.12.16 at 21h 03m 35s.xml">
-      <configuration name="Get401" configurationId="JUnit" />
+    <history-entry file="Get401 - 2019.03.04 at 20h 58m 25s.xml">
+      <configuration name="Get401" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="Get200 - 2018.12.17 at 07h 03m 19s.xml">
-      <configuration name="Get200" configurationId="JUnit" />
+    <history-entry file="Get200 - 2019.03.04 at 20h 58m 39s.xml">
+      <configuration name="Get200" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="Get200 - 2018.12.17 at 07h 08m 36s.xml">
-      <configuration name="Get200" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Get200 - 2018.12.17 at 07h 13m 06s.xml">
-      <configuration name="Get200" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Get200 - 2018.12.17 at 07h 13m 50s.xml">
-      <configuration name="Get200" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Get200 - 2018.12.17 at 07h 14m 52s.xml">
-      <configuration name="Get200" configurationId="JUnit" />
+    <history-entry file="Get200 - 2019.03.04 at 20h 59m 36s.xml">
+      <configuration name="Get200" configurationId="TestNG" />
     </history-entry>
   </component>
   <component name="TodoView">
@@ -303,52 +362,89 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="202" y="23" width="1359" height="787" extended-state="0" />
+    <frame x="0" y="23" width="1280" height="716" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Image Layers" />
-      <window_info id="Designer" />
-      <window_info id="UI Designer" />
-      <window_info id="Capture Tool" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24981017" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27382874" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" weight="0.3294964" />
-      <window_info anchor="bottom" id="Event Log" sideWeight="0.50949126" side_tool="true" weight="0.3294964" />
-      <window_info anchor="bottom" id="Messages" sideWeight="0.49050874" weight="0.3294964" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49962035" weight="0.3294964" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49050874" weight="0.3294964" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.48949918" visible="true" weight="0.40224358" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39903846" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3294964" />
-      <window_info anchor="right" id="Palette" />
-      <window_info anchor="right" id="Theme Preview" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="right" id="Palette&#9;" />
-      <window_info anchor="right" id="Maven Projects" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.53846157" />
+      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.5105008" side_tool="true" weight="0.40224358" />
+      <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.48949918" weight="0.32852563" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Palette&#9;" order="6" />
+      <window_info anchor="right" id="Maven Projects" order="7" />
+      <window_info anchor="right" id="Maven" order="8" />
+      <window_info anchor="right" id="Coverage" order="9" side_tool="true" weight="0.32956383" />
     </layout>
   </component>
-  <component name="VcsContentAnnotationSettings">
-    <option name="myLimit" value="2678400000" />
+  <component name="XDebuggerManager">
+    <watches-manager>
+      <configuration name="JUnit">
+        <watch expression="response" />
+      </configuration>
+    </watches-manager>
   </component>
   <component name="editorHistoryManager">
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/Test.class">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/encodings.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/compiler.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
+        <state relative-caret-position="420">
+          <caret line="28" column="21" selection-start-line="28" selection-start-column="21" selection-end-line="28" selection-end-column="21" />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/target/test-classes/BaseClass.class">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/test-classes/Get200.class">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/test-classes/Get404.class">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/Get404.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="124">
-          <caret line="12" column="59" lean-forward="true" selection-start-line="10" selection-start-column="4" selection-end-line="12" selection-end-column="59" />
+        <state relative-caret-position="240">
+          <caret line="23" selection-start-line="23" selection-end-line="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/BodyTestWithSimpleMap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="12" column="61" selection-start-line="12" selection-start-column="61" selection-end-line="12" selection-end-column="61" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -357,8 +453,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/Get401.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="528">
-          <caret line="41" column="44" selection-start-line="41" selection-start-column="44" selection-end-line="41" selection-end-column="44" />
+        <state relative-caret-position="-83">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -367,13 +463,99 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/Get200.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-89">
-          <caret line="15" column="9" lean-forward="true" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="9" />
+        <state relative-caret-position="289">
+          <caret line="29" column="16" selection-start-line="29" selection-start-column="16" selection-end-line="29" selection-end-column="16" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/BaseClass.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="163">
+          <caret line="14" column="35" lean-forward="true" selection-start-line="14" selection-start-column="35" selection-end-line="14" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>WebApiAutomation</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: com.beust:jcommander:1.72</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
   </component>
 </project>

@@ -2,40 +2,30 @@ import org.apache.http.HttpResponse;
 import org.apache.http.client.HttpClient;
 import org.apache.http.client.methods.HttpGet;
 import org.apache.http.impl.client.HttpClientBuilder;
-import org.junit.Test;
 import org.testng.Assert;
+import org.testng.annotations.DataProvider;
+import org.testng.annotations.Test;
 
 import java.io.IOException;
 
 public class Get401 extends BaseClass{
 
-
     HttpClient client = HttpClientBuilder.create().build();
 
-    @Test
-    public void userReturns401() throws IOException {
+    @DataProvider
+    private Object[][] endpoints() {
+        return new Object[][] {
 
-        HttpGet get = new HttpGet(BASE_ENDPOINT + "/user");
-        HttpResponse response = client.execute(get);
-
-        int actuasStatus = response.getStatusLine().getStatusCode();
-        Assert.assertEquals(actuasStatus,401);
+    {"/user"},
+    {"/user/followers"},
+    {"/notifications"}
+        };
     }
 
-    @Test
-    public void userFolowersReturns404() throws IOException {
+    @Test(dataProvider = "endpoints")
+    public void userReturns401(String endpoint) throws IOException {
 
-        HttpGet get = new HttpGet(BASE_ENDPOINT + "/user/followers");
-        HttpResponse response = client.execute(get);
-
-        int actuasStatus = response.getStatusLine().getStatusCode();
-        Assert.assertEquals(actuasStatus,401);
-    }
-
-    @Test
-    public void notificationsReturns404() throws IOException {
-
-        HttpGet get = new HttpGet(BASE_ENDPOINT + "/notifications");
+        HttpGet get = new HttpGet(BASE_ENDPOINT + endpoint);
         HttpResponse response = client.execute(get);
 
         int actuasStatus = response.getStatusLine().getStatusCode();
