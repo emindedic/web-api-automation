@@ -1,8 +1,12 @@
 package base;
 
+import com.fasterxml.jackson.databind.DeserializationFeature;
+import com.fasterxml.jackson.databind.ObjectMapper;
 import org.apache.http.Header;
 import org.apache.http.client.methods.CloseableHttpResponse;
+import org.apache.http.util.EntityUtils;
 
+import java.io.IOException;
 import java.util.Arrays;
 import java.util.List;
 import java.util.Optional;
@@ -51,6 +55,31 @@ public class ResponseUtils {
         return httpHeaders.stream()
                 .anyMatch(header -> header.getName().equalsIgnoreCase(headerName));
 
+    }
+
+
+
+    //Unmarshall method
+
+    public static User unmarshall(CloseableHttpResponse response, Class<User> userClass) throws IOException {
+        String jsonBody = EntityUtils.toString(response.getEntity());
+
+        return new ObjectMapper()
+                // Tell Jackson to not fail if it finds unused fields
+                .configure(DeserializationFeature.FAIL_ON_UNKNOWN_PROPERTIES, false)
+
+                .readValue(jsonBody, userClass);
+    }
+
+    //HAve to make generic class
+    public static <T> T unmarshallGeneric(CloseableHttpResponse response, Class<T> userClass) throws IOException {
+        String jsonBody = EntityUtils.toString(response.getEntity());
+
+        return new ObjectMapper()
+                // Tell Jackson to not fail if it finds unused fields
+                .configure(DeserializationFeature.FAIL_ON_UNKNOWN_PROPERTIES, false)
+
+                .readValue(jsonBody, userClass);
     }
 
 }

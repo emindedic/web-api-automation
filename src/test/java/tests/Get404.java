@@ -18,7 +18,7 @@ public class Get404 extends BaseClass {
     @Test
     public void nonExistingUrlReturns404() throws IOException {
 
-        HttpGet get = new HttpGet(BaseClass.BASE_ENDPOINT + "/nonexistingurl");
+        HttpGet get = new HttpGet(BaseClass.BASE_ENDPOINT + "/users/emindedic34");
         HttpResponse response = client.execute(get);
 
         int actuasStatus = response.getStatusLine().getStatusCode();
