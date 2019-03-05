@@ -1,6 +1,6 @@
 package tests;
 
-import base.BaseClass;
+import baseMethods.BaseClass;
 import org.apache.http.HttpResponse;
 import org.apache.http.client.HttpClient;
 import org.apache.http.client.methods.HttpGet;
@@ -26,7 +26,6 @@ public class Get200 extends BaseClass {
                 {"/rate_limit"},
                 {"/search/repositories?q=java"}};
     }
-
 
 
     @Test(dataProvider = "endpoints")

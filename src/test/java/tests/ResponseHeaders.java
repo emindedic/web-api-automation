@@ -1,27 +1,20 @@
 package tests;
 
-import base.BaseClass;
-import base.ResponseUtils;
+import baseMethods.BaseClass;
+import baseMethods.ResponseUtils;
 import org.apache.http.Header;
-import org.apache.http.client.methods.CloseableHttpResponse;
 import org.apache.http.client.methods.HttpGet;
 import org.apache.http.entity.ContentType;
-import org.apache.http.impl.client.CloseableHttpClient;
-import org.apache.http.impl.client.HttpClientBuilder;
-import org.testng.annotations.AfterMethod;
-import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
 import java.io.IOException;
-import java.util.Arrays;
-import java.util.List;
 
-import static base.ResponseUtils.getHeader;
+import static baseMethods.ResponseUtils.getHeader;
 import static org.testng.AssertJUnit.assertEquals;
 import static org.testng.AssertJUnit.assertTrue;
 
 public class ResponseHeaders extends BaseClass {
-    
+
     @Test
     public  void contentTypeJSON() throws IOException {
         HttpGet get = new HttpGet(BASE_ENDPOINT);

@@ -1,22 +1,19 @@
 package tests;
 
-import base.BaseClass;
-import base.NotFound;
-import base.ResponseUtils;
-import base.User;
-import com.fasterxml.jackson.databind.DeserializationFeature;
-import com.fasterxml.jackson.databind.ObjectMapper;
-import com.sun.tools.internal.xjc.reader.xmlschema.bindinfo.BIConversion;
-import org.apache.http.client.methods.CloseableHttpResponse;
+import baseClasses.RateLimit;
+import baseMethods.BaseClass;
+import baseClasses.NotFound;
+import baseClasses.User;
+import baseMethods.ResponseUtils;
 import org.apache.http.client.methods.HttpGet;
-import org.apache.http.util.EntityUtils;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
 import java.io.IOException;
 
-import static base.ResponseUtils.unmarshall;
-import static base.ResponseUtils.unmarshallGeneric;
+import static baseMethods.ResponseUtils.unmarshall;
+import static baseMethods.ResponseUtils.unmarshallGeneric;
+import static org.testng.AssertJUnit.assertEquals;
 
 public class BodyTestWithJacksonLib extends BaseClass {
 
@@ -51,5 +48,16 @@ public class BodyTestWithJacksonLib extends BaseClass {
         NotFound notFound = unmarshallGeneric(response, NotFound.class);
 
         Assert.assertEquals(notFound.getMessage(), "Not Found");
+    }
+
+    @Test
+    public void correctRateLimitAreSet() throws IOException {
+        HttpGet get =  new HttpGet(BASE_ENDPOINT + "/rate_limit");
+
+        response = client.execute(get);
+
+        RateLimit rateLimit = ResponseUtils.unmarshallGeneric(response, RateLimit.class);
+
+        assertEquals(rateLimit.getCoreLimit(), 60);
     }
 }

@@ -1,6 +1,6 @@
 package tests;
 
-import base.BaseClass;
+import baseMethods.BaseClass;
 import org.apache.http.client.methods.HttpGet;
 import org.apache.http.util.EntityUtils;
 import org.json.JSONObject;
@@ -9,8 +9,8 @@ import org.testng.annotations.Test;
 
 import java.io.IOException;
 
-import static base.User.ID;
-import static base.User.LOGIN;
+import static baseClasses.User.ID;
+import static baseClasses.User.LOGIN;
 
 
 public class BodyTestWithSimpleMap extends BaseClass {

@@ -1,4 +1,4 @@
-package base;
+package baseClasses;
 
 public class NotFound {
 

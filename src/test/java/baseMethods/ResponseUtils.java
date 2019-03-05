@@ -1,5 +1,6 @@
-package base;
+package baseMethods;
 
+import baseClasses.User;
 import com.fasterxml.jackson.databind.DeserializationFeature;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import org.apache.http.Header;
@@ -9,7 +10,6 @@ import org.apache.http.util.EntityUtils;
 import java.io.IOException;
 import java.util.Arrays;
 import java.util.List;
-import java.util.Optional;
 
 public class ResponseUtils {
 
