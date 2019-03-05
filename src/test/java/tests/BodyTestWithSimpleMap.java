@@ -9,6 +9,8 @@ import org.testng.annotations.Test;
 
 import java.io.IOException;
 
+import static base.User.LOGIN;
+
 
 public class BodyTestWithSimpleMap extends BaseClass {
 
@@ -24,7 +26,7 @@ public class BodyTestWithSimpleMap extends BaseClass {
 
         JSONObject jsonObject = new JSONObject(jsonBody);
 
-        String loginValue = (String) getValueFor(jsonObject, "login");
+        String loginValue = (String) getValueFor(jsonObject, LOGIN);
         Assert.assertEquals(loginValue, "emindedic");
     }
 
