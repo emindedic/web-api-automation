@@ -1,6 +1,7 @@
 package tests;
 
 import base.BaseClass;
+import base.NotFound;
 import base.ResponseUtils;
 import base.User;
 import com.fasterxml.jackson.databind.DeserializationFeature;
@@ -15,6 +16,7 @@ import org.testng.annotations.Test;
 import java.io.IOException;
 
 import static base.ResponseUtils.unmarshall;
+import static base.ResponseUtils.unmarshallGeneric;
 
 public class BodyTestWithJacksonLib extends BaseClass {
 
@@ -39,5 +41,16 @@ public class BodyTestWithJacksonLib extends BaseClass {
 
         Assert.assertEquals(user.getId(), 5750725);
 
+    }
+
+    @Test
+    public void notFoundMessageIsCorrect() throws IOException {
+        HttpGet get =  new HttpGet(BASE_ENDPOINT + "/users/emindedic45");
+
+        response = client.execute(get);
+
+        NotFound notFound = unmarshallGeneric(response, NotFound.class);
+
+        Assert.assertEquals(notFound.getMessage(), "Not Found");
     }
 }

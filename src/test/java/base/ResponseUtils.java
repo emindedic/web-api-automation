@@ -69,8 +69,17 @@ public class ResponseUtils {
                 .configure(DeserializationFeature.FAIL_ON_UNKNOWN_PROPERTIES, false)
 
                 .readValue(jsonBody, userClass);
+    }
 
+    //HAve to make generic class
+    public static <T> T unmarshallGeneric(CloseableHttpResponse response, Class<T> userClass) throws IOException {
+        String jsonBody = EntityUtils.toString(response.getEntity());
 
+        return new ObjectMapper()
+                // Tell Jackson to not fail if it finds unused fields
+                .configure(DeserializationFeature.FAIL_ON_UNKNOWN_PROPERTIES, false)
+
+                .readValue(jsonBody, userClass);
     }
 
 }
