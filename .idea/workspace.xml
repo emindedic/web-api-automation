@@ -2,20 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="43a9576a-e4ae-4972-91f7-3819d4ef2796" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/base/ResponseUtils.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/BaseClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/base/BaseClass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/BodyTestWithSimpleMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/BodyTestWithSimpleMap.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Get200.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/Get200.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Get401.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/Get401.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Get404.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/Get404.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ResponseHeaders.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/ResponseHeaders.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/BaseClass.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/BodyTestWithSimpleMap.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Get200.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Get401.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Get404.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/ResponseHeaders.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/base/ResponseUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/base/ResponseUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/ResponseHeaders.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/ResponseHeaders.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -42,11 +32,23 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/tests/ResponseHeaders.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-232">
-              <caret line="28" column="5" selection-start-line="28" selection-start-column="5" selection-end-line="28" selection-end-column="5" />
+            <state relative-caret-position="248">
+              <caret line="70" lean-forward="true" selection-start-line="70" selection-end-line="70" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/base/ResponseUtils.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="219">
+              <caret line="47" column="8" lean-forward="true" selection-start-line="47" selection-start-column="8" selection-end-line="47" selection-end-column="8" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -55,13 +57,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/base/ResponseUtils.java">
+        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/src.zip!/java/util/function/Predicate.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="167">
-              <caret line="27" column="9" lean-forward="true" selection-start-line="27" selection-start-column="9" selection-end-line="27" selection-end-column="9" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="375">
+              <caret line="48" column="12" selection-start-line="48" selection-start-column="12" selection-end-line="48" selection-end-column="12" />
             </state>
           </provider>
         </entry>
@@ -139,9 +138,9 @@
         <option value="$PROJECT_DIR$/src/test/java/tests/Get404.java" />
         <option value="$PROJECT_DIR$/src/test/java/BodyTestWithSimpleMap.java" />
         <option value="$PROJECT_DIR$/src/test/java/tests/Get401.java" />
-        <option value="$PROJECT_DIR$/src/test/java/base/ResponseUtils.java" />
         <option value="$PROJECT_DIR$/src/test/java/base/BaseClass.java" />
         <option value="$PROJECT_DIR$/src/test/java/tests/ResponseHeaders.java" />
+        <option value="$PROJECT_DIR$/src/test/java/base/ResponseUtils.java" />
       </list>
     </option>
   </component>
@@ -153,9 +152,9 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="166" />
-    <option name="y" value="30" />
-    <option name="width" value="1106" />
+    <option name="x" value="363" />
+    <option name="y" value="23" />
+    <option name="width" value="1173" />
     <option name="height" value="716" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -234,9 +233,9 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551776061298" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551778243172" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
   </component>
@@ -258,16 +257,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.ResponseHeaders">
-    <configuration name="Get401" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="WebApiAutomation" />
-      <option name="PACKAGE_NAME" value="tests" />
-      <option name="MAIN_CLASS_NAME" value="tests.Get401" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="TestNG.ResponseHeaders.eTagResponse">
     <configuration name="Get200" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="WebApiAutomation" />
       <option name="PACKAGE_NAME" value="" />
@@ -298,11 +288,35 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ResponseHeaders.contentTypeJSON" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="ResponseHeaders.XRayLimitIsSixty" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="WebApiAutomation" />
-      <option name="PACKAGE_NAME" value="" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests" />
       <option name="MAIN_CLASS_NAME" value="tests.ResponseHeaders" />
-      <option name="METHOD_NAME" value="contentTypeJSON" />
+      <option name="METHOD_NAME" value="XRayLimitIsSixty" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ResponseHeaders.eTagResponse" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="WebApiAutomation" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.ResponseHeaders" />
+      <option name="METHOD_NAME" value="eTagResponse" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -311,19 +325,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.Get401" />
       <item itemvalue="TestNG.Get401" />
       <item itemvalue="TestNG.Get200" />
       <item itemvalue="TestNG.ResponseHeaders" />
-      <item itemvalue="TestNG.ResponseHeaders.contentTypeJSON" />
+      <item itemvalue="TestNG.ResponseHeaders.XRayLimitIsSixty" />
+      <item itemvalue="TestNG.ResponseHeaders.eTagResponse" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.ResponseHeaders.eTagResponse" />
+        <item itemvalue="TestNG.ResponseHeaders.XRayLimitIsSixty" />
         <item itemvalue="TestNG.ResponseHeaders" />
         <item itemvalue="TestNG.Get200" />
         <item itemvalue="TestNG.Get401" />
-        <item itemvalue="TestNG.ResponseHeaders.contentTypeJSON" />
-        <item itemvalue="JUnit.Get401" />
       </list>
     </recent_temporary>
   </component>
@@ -341,15 +355,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Get200 - 2019.03.04 at 20h 59m 36s.xml">
-      <configuration name="Get200" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="ResponseHeaders - 2019.03.04 at 21h 31m 25s.xml">
-      <configuration name="ResponseHeaders" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="ResponseHeaders - 2019.03.04 at 22h 47m 14s.xml">
-      <configuration name="ResponseHeaders" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="ResponseHeaders - 2019.03.04 at 22h 47m 29s.xml">
       <configuration name="ResponseHeaders" configurationId="TestNG" />
     </history-entry>
@@ -371,6 +376,15 @@
     <history-entry file="ResponseHeaders - 2019.03.05 at 09h 51m 40s.xml">
       <configuration name="ResponseHeaders" configurationId="TestNG" />
     </history-entry>
+    <history-entry file="ResponseHeaders_XRayLimitIsSixty - 2019.03.05 at 10h 17m 08s.xml">
+      <configuration name="ResponseHeaders.XRayLimitIsSixty" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="ResponseHeaders_XRayLimitIsSixty - 2019.03.05 at 10h 17m 21s.xml">
+      <configuration name="ResponseHeaders.XRayLimitIsSixty" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="ResponseHeaders_XRayLimitIsSixty - 2019.03.05 at 10h 21m 12s.xml">
+      <configuration name="ResponseHeaders.XRayLimitIsSixty" configurationId="TestNG" />
+    </history-entry>
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -382,10 +396,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="166" y="30" width="1106" height="716" extended-state="0" />
+    <frame x="264" y="23" width="1173" height="716" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49865952" visible="true" weight="0.32612783" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49865952" visible="true" weight="0.32095492" />
       <window_info id="Structure" order="1" sideWeight="0.50119334" side_tool="true" weight="0.32612783" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -451,16 +465,6 @@
     <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/base/ResponseUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="167">
-          <caret line="27" column="9" lean-forward="true" selection-start-line="27" selection-start-column="9" selection-end-line="27" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/BodyTestWithSimpleMap.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
@@ -502,10 +506,27 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/src.zip!/java/util/function/Predicate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="48" column="12" selection-start-line="48" selection-start-column="12" selection-end-line="48" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/tests/ResponseHeaders.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-232">
-          <caret line="28" column="5" selection-start-line="28" selection-start-column="5" selection-end-line="28" selection-end-column="5" />
+        <state relative-caret-position="248">
+          <caret line="70" lean-forward="true" selection-start-line="70" selection-end-line="70" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/base/ResponseUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="219">
+          <caret line="47" column="8" lean-forward="true" selection-start-line="47" selection-start-column="8" selection-end-line="47" selection-end-column="8" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
