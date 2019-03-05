@@ -14,6 +14,7 @@ public class Get404 extends BaseClass {
 
     HttpClient client = HttpClientBuilder.create().build();
 
+
     @Test
     public void nonExistingUrlReturns404() throws IOException {
 
@@ -23,8 +24,4 @@ public class Get404 extends BaseClass {
         int actuasStatus = response.getStatusLine().getStatusCode();
         Assert.assertEquals(actuasStatus,404);
     }
-
-
-
-
 }
