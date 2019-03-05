@@ -22,19 +22,6 @@ import static org.testng.AssertJUnit.assertTrue;
 
 public class ResponseHeaders extends BaseClass {
 
-    private CloseableHttpClient client;
-    private CloseableHttpResponse response;
-
-    @BeforeMethod
-    public void  setup() {
-        client = HttpClientBuilder.create().build();
-    }
-
-    @AfterMethod
-    public  void closeResources() throws IOException {
-        client.close();
-        response.close();
-    }
 
     @Test
     public  void contentTypeJSON() throws IOException {
@@ -43,7 +30,6 @@ public class ResponseHeaders extends BaseClass {
 
         Header contentType = response.getEntity().getContentType();
         assertEquals(contentType.getValue(), "application/json; charset=utf-8");
-
         ContentType content = ContentType.getOrDefault(response.getEntity());
         assertEquals(content.getMimeType(), "application/json");
     }
@@ -54,11 +40,9 @@ public class ResponseHeaders extends BaseClass {
 
         HttpGet get = new HttpGet(BASE_ENDPOINT);
         response = client.execute(get);
-        
         String headerValue = getHeader(response, "Server");
         assertEquals(headerValue,"GitHub.com");
     }
-
 
     @Test
     public void XRayLimitIsSixty() throws IOException {
@@ -69,7 +53,6 @@ public class ResponseHeaders extends BaseClass {
         assertEquals(limitVal, "60");
     }
 
-
     @Test
     public void eTagResponse() throws IOException {
         HttpGet get = new HttpGet(BASE_ENDPOINT);
@@ -77,6 +60,5 @@ public class ResponseHeaders extends BaseClass {
 
         boolean tagIsPresent = ResponseUtils.headerIsPresent(response, "ETag");
         assertTrue(tagIsPresent);
-
     }
 }

@@ -42,6 +42,8 @@ public class ResponseUtils {
 
                 return matchHeaders.getValue();
     }
+
+
     //Check if header returns Etag
     public static boolean headerIsPresent(CloseableHttpResponse response, String headerName) {
         List<Header> httpHeaders = Arrays.asList(response.getAllHeaders());
