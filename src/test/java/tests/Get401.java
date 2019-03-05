@@ -19,9 +19,10 @@ public class Get401 extends BaseClass {
     private Object[][] endpoints() {
         return new Object[][] {
 
+    //incorrect endpoints
     {"/user"},
     {"/user/followers"},
-    {"/notifications"}
+    {"/notification"}
         };
     }
 

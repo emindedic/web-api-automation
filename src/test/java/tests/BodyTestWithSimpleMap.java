@@ -31,7 +31,7 @@ public class BodyTestWithSimpleMap extends BaseClass {
         Assert.assertEquals(loginValue, "emindedic");
     }
 
-    
+
     @Test
     public void returnCorrectId() throws IOException {
 
@@ -45,7 +45,7 @@ public class BodyTestWithSimpleMap extends BaseClass {
         JSONObject jsonObject = new JSONObject(jsonBody);
 
         Integer loginValue = (Integer) getValueFor(jsonObject, ID);
-        Assert.assertEquals(loginValue, Integer.valueOf(113345678));
+        Assert.assertEquals(loginValue, Integer.valueOf(5750725));
     }
 
     private Object getValueFor(JSONObject jsonObject, String login) {
