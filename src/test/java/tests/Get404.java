@@ -1,3 +1,6 @@
+package tests;
+
+import base.BaseClass;
 import org.apache.http.HttpResponse;
 import org.apache.http.client.HttpClient;
 import org.apache.http.client.methods.HttpGet;
@@ -14,7 +17,7 @@ public class Get404 extends BaseClass {
     @Test
     public void nonExistingUrlReturns404() throws IOException {
 
-        HttpGet get = new HttpGet(BASE_ENDPOINT + "/nonexistingurl");
+        HttpGet get = new HttpGet(BaseClass.BASE_ENDPOINT + "/nonexistingurl");
         HttpResponse response = client.execute(get);
 
         int actuasStatus = response.getStatusLine().getStatusCode();

@@ -1,3 +1,6 @@
+package tests;
+
+import base.BaseClass;
 import org.apache.http.Header;
 import org.apache.http.client.methods.CloseableHttpResponse;
 import org.apache.http.client.methods.HttpGet;
@@ -12,6 +15,7 @@ import java.io.IOException;
 import java.util.Arrays;
 import java.util.List;
 
+import static base.ResponseUtils.getHeader;
 import static org.testng.AssertJUnit.assertEquals;
 
 public class ResponseHeaders extends BaseClass {
@@ -23,7 +27,6 @@ public class ResponseHeaders extends BaseClass {
     public void  setup() {
         client = HttpClientBuilder.create().build();
     }
-
 
     @AfterMethod
     public  void closeResources() throws IOException {
@@ -43,7 +46,7 @@ public class ResponseHeaders extends BaseClass {
         assertEquals(content.getMimeType(), "application/json");
     }
 
-
+    // Check server name
     @Test
     public void  serverIsGithub() throws IOException {
 
@@ -51,31 +54,6 @@ public class ResponseHeaders extends BaseClass {
         response = client.execute(get);
         
         String headerValue = getHeader(response, "Server");
+        assertEquals(headerValue,"GitHub.com");
     }
-
-    private String getHeader(CloseableHttpResponse response, String headerName) {
-
-        //Get all headers
-        Header[] headers = response.getAllHeaders();
-        List<Header> httpHeaders = Arrays.asList(headers);
-        String returnHeader = "";
-
-        //Loop over headers list
-
-        for (Header header : headers) {
-            if(headerName.equalsIgnoreCase(header.getName())) {
-                returnHeader = header.getValue();
-            }
-        }
-
-        //If no header found - throw an exception
-        if(returnHeader.isEmpty()) {
-            throw new RuntimeException("Didn't fint the header: " + headerName);
-        }
-
-        //Return header
-        return returnHeader;
-    }
-
-
 }

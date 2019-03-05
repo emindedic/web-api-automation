@@ -1,3 +1,5 @@
+package base;
+
 import com.sun.tools.internal.ws.processor.model.Response;
 import org.apache.http.client.methods.CloseableHttpResponse;
 import org.apache.http.entity.ContentType;
@@ -13,7 +15,4 @@ public class BaseClass {
 
     CloseableHttpClient client;
     CloseableHttpResponse response;
-
-
-
 }
