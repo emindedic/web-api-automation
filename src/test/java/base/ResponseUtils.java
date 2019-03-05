@@ -47,20 +47,16 @@ public class ResponseUtils {
                 return matchHeaders.getValue();
     }
 
-
     //Check if header returns Etag
     public static boolean headerIsPresent(CloseableHttpResponse response, String headerName) {
         List<Header> httpHeaders = Arrays.asList(response.getAllHeaders());
 
         return httpHeaders.stream()
                 .anyMatch(header -> header.getName().equalsIgnoreCase(headerName));
-
     }
 
 
-
     //Unmarshall method
-
     public static User unmarshall(CloseableHttpResponse response, Class<User> userClass) throws IOException {
         String jsonBody = EntityUtils.toString(response.getEntity());
 
@@ -71,7 +67,7 @@ public class ResponseUtils {
                 .readValue(jsonBody, userClass);
     }
 
-    //HAve to make generic class
+    //Create generic class
     public static <T> T unmarshallGeneric(CloseableHttpResponse response, Class<T> userClass) throws IOException {
         String jsonBody = EntityUtils.toString(response.getEntity());
 
@@ -81,5 +77,4 @@ public class ResponseUtils {
 
                 .readValue(jsonBody, userClass);
     }
-
 }

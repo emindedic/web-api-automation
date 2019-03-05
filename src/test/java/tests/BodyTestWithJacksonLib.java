@@ -40,7 +40,6 @@ public class BodyTestWithJacksonLib extends BaseClass {
         User user = unmarshall(response, User.class);
 
         Assert.assertEquals(user.getId(), 5750725);
-
     }
 
     @Test

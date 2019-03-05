@@ -38,8 +38,4 @@ public class Get200 extends BaseClass {
         int actuasStatus = response.getStatusLine().getStatusCode();
         Assert.assertEquals(actuasStatus,200);
     }
-
-
-
-
 }

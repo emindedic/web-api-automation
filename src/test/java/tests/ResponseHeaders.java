@@ -21,8 +21,7 @@ import static org.testng.AssertJUnit.assertEquals;
 import static org.testng.AssertJUnit.assertTrue;
 
 public class ResponseHeaders extends BaseClass {
-
-
+    
     @Test
     public  void contentTypeJSON() throws IOException {
         HttpGet get = new HttpGet(BASE_ENDPOINT);

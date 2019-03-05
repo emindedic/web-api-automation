@@ -41,7 +41,6 @@ public class BodyTestWithSimpleMap extends BaseClass {
         String jsonBody = EntityUtils.toString(response.getEntity());
         System.out.println(response);
 
-
         JSONObject jsonObject = new JSONObject(jsonBody);
 
         Integer loginValue = (Integer) getValueFor(jsonObject, ID);
@@ -51,5 +50,4 @@ public class BodyTestWithSimpleMap extends BaseClass {
     private Object getValueFor(JSONObject jsonObject, String login) {
         return jsonObject.get(login);
     }
-
 }
