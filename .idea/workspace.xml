@@ -1,21 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="43a9576a-e4ae-4972-91f7-3819d4ef2796" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/tests/BodyTestWithJacksonLib.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/base/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/base/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/BodyTestWithSimpleMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/BodyTestWithSimpleMap.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/Get401.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/Get401.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/Get404.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/Get404.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/BodyTestWithSimpleMap.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/tests/BodyTestWithSimpleMap.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/Get401.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/tests/Get401.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/Get404.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/tests/Get404.class" afterDir="false" />
+    <list default="true" id="35754cca-46cf-4366-8018-1d2af984c39c" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/base/ResponseUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/base/ResponseUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/BodyTestWithJacksonLib.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/BodyTestWithJacksonLib.java" afterDir="false" />
     </list>
-    <ignored path="$PROJECT_DIR$/out/" />
-    <ignored path="$PROJECT_DIR$/target/" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -32,8 +22,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="308">
-              <caret line="53" column="19" lean-forward="true" selection-start-line="53" selection-start-column="19" selection-end-line="53" selection-end-column="19" />
+            <state relative-caret-position="210">
+              <caret line="14" column="31" selection-start-line="14" selection-start-column="31" selection-end-line="14" selection-end-column="31" />
             </state>
           </provider>
         </entry>
@@ -41,12 +31,10 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/tests/BodyTestWithSimpleMap.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="157">
-              <caret line="47" column="63" selection-start-line="47" selection-start-column="56" selection-end-line="47" selection-end-column="63" />
+            <state relative-caret-position="107">
+              <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#753#754#0" expanded="true" />
-                <element signature="e#771#772#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -55,14 +43,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/base/User.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="41" selection-start-line="6" selection-start-column="41" selection-end-line="6" selection-end-column="41" />
-              <folding>
-                <element signature="e#246#247#0" expanded="true" />
-                <element signature="e#274#275#0" expanded="true" />
-                <element signature="e#300#301#0" expanded="true" />
-                <element signature="e#325#326#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="135">
+              <caret line="9" column="25" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
             </state>
           </provider>
         </entry>
@@ -70,8 +52,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/tests/BodyTestWithJacksonLib.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="230">
-              <caret line="38" column="42" selection-start-line="38" selection-start-column="42" selection-end-line="38" selection-end-column="42" />
+            <state relative-caret-position="225">
+              <caret line="21" column="25" selection-start-line="21" selection-start-column="25" selection-end-line="21" selection-end-column="25" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -80,10 +62,13 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/apache/httpcomponents/httpclient/4.5.6/httpclient-4.5.6-sources.jar!/org/apache/http/client/HttpClient.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/base/ResponseUtils.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1304">
-              <caret line="89" column="17" selection-start-line="89" selection-start-column="17" selection-end-line="89" selection-end-column="17" />
+            <state relative-caret-position="-629">
+              <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -91,7 +76,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/tests/ResponseHeaders.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
+            <state relative-caret-position="330">
               <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -103,7 +88,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/tests/Get401.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="9">
+            <state relative-caret-position="210">
               <caret line="23" column="21" selection-start-line="23" selection-start-column="21" selection-end-line="23" selection-end-column="21" />
             </state>
           </provider>
@@ -112,7 +97,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/tests/Get404.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="173">
+            <state relative-caret-position="300">
               <caret line="20" column="79" selection-start-line="20" selection-start-column="79" selection-end-line="20" selection-end-column="79" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -124,8 +109,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/base/BaseClass.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="121">
-              <caret line="22" selection-start-line="22" selection-end-line="22" />
+            <state relative-caret-position="360">
+              <caret line="24" column="17" selection-start-line="24" selection-start-column="17" selection-end-line="24" selection-end-column="17" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#713#714#0" expanded="true" />
@@ -138,8 +123,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/tests/Get200.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="33" selection-start-line="33" selection-end-line="33" />
+            <state relative-caret-position="103">
+              <caret line="29" selection-start-line="29" selection-end-line="29" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -156,33 +141,12 @@
       </list>
     </option>
   </component>
-  <component name="FindInProjectRecents">
-    <dirStrings>
-      <dir>$PROJECT_DIR$/src/test/java</dir>
-      <dir>$PROJECT_DIR$</dir>
-    </dirStrings>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/test/java/Get401.java" />
-        <option value="$PROJECT_DIR$/src/test/java/Get404.java" />
-        <option value="$PROJECT_DIR$/src/test/java/BaseClass.java" />
-        <option value="$PROJECT_DIR$/src/test/java/Get200.java" />
-        <option value="$PROJECT_DIR$/src/test/java/ResponseHeaders.java" />
-        <option value="$PROJECT_DIR$/src/test/java/tests/Get200.java" />
-        <option value="$PROJECT_DIR$/src/test/java/BodyTestWithSimpleMap.java" />
-        <option value="$PROJECT_DIR$/src/test/java/base/ResponseUtils.java" />
-        <option value="$PROJECT_DIR$/src/test/java/tests/ResponseHeaders.java" />
-        <option value="$PROJECT_DIR$/src/test/java/base/BaseClass.java" />
-        <option value="$PROJECT_DIR$/src/test/java/tests/BodyTestWithSimpleMap.java" />
-        <option value="$PROJECT_DIR$/src/test/java/tests/Get404.java" />
-        <option value="$PROJECT_DIR$/src/test/java/tests/Get401.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/test/java/base/User.java" />
         <option value="$PROJECT_DIR$/src/test/java/tests/BodyTestWithJacksonLib.java" />
       </list>
     </option>
@@ -194,30 +158,8 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="MavenProjectNavigator">
-    <treeState>
-      <expand>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="WebApiAutomation" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="WebApiAutomation" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Plugins" type="7aea1407:MavenProjectsStructure$PluginsNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="WebApiAutomation" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Plugins" type="7aea1407:MavenProjectsStructure$PluginsNode" />
-          <item name="clean" type="36feed69:MavenProjectsStructure$PluginNode" />
-        </path>
-      </expand>
-      <select />
-    </treeState>
-  </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="192" />
+    <option name="x" value="375" />
     <option name="y" value="23" />
     <option name="width" value="1173" />
     <option name="height" value="716" />
@@ -228,23 +170,23 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope">
-        <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
-          <expand>
-            <path>
-              <item name="web-api-automation" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="WebApiAutomation" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
       <pane id="PackagesPane">
         <subPane>
           <expand>
             <path>
               <item name="web-api-automation" type="58d84e3e:PackageViewProjectNode" />
               <item name="WebApiAutomation" type="616d4139:PackageViewModuleNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope">
+        <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
+          <expand>
+            <path>
+              <item name="web-api-automation" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="WebApiAutomation" type="2674bda8:ScopeViewTreeModel$GroupNode" />
             </path>
           </expand>
           <select />
@@ -261,6 +203,12 @@
               <item name="web-api-automation" type="b2602c69:ProjectViewProjectNode" />
               <item name="web-api-automation" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="web-api-automation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="web-api-automation" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="web-api-automation" type="b2602c69:ProjectViewProjectNode" />
@@ -298,20 +246,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551798868440" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="project.structure.last.edited" value="Project" />
-    <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.2" />
-  </component>
-  <component name="RecentsManager">
-    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
-      <recent name="tests" />
-      <recent name="base" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/test/java/tests" />
-    </key>
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551821557197" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -325,23 +260,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.BodyTestWithJacksonLib.returnCorrectLogin">
-    <configuration name="Get404" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="WebApiAutomation" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="tests" />
-      <option name="MAIN_CLASS_NAME" value="tests.Get404" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="BodyTestWithJacksonLib.returnCorrectID" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.BodyTestWithJacksonLib">
+    <configuration name="BodyTestWithJacksonLib" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="WebApiAutomation" />
       <extension name="coverage">
         <pattern>
@@ -351,7 +271,23 @@
       </extension>
       <option name="PACKAGE_NAME" value="tests" />
       <option name="MAIN_CLASS_NAME" value="tests.BodyTestWithJacksonLib" />
-      <option name="METHOD_NAME" value="returnCorrectID" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BodyTestWithJacksonLib.returnCorrectId" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="WebApiAutomation" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.BodyTestWithJacksonLib" />
+      <option name="METHOD_NAME" value="returnCorrectId" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -393,7 +329,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Get401" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="Get200.returns200" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="WebApiAutomation" />
       <extension name="coverage">
         <pattern>
@@ -402,7 +338,9 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="tests" />
-      <option name="MAIN_CLASS_NAME" value="tests.Get401" />
+      <option name="MAIN_CLASS_NAME" value="tests.Get200" />
+      <option name="METHOD_NAME" value="returns200" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
@@ -410,19 +348,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="TestNG.BodyTestWithSimpleMap" />
-      <item itemvalue="JUnit.Get404" />
-      <item itemvalue="TestNG.Get401" />
-      <item itemvalue="TestNG.BodyTestWithJacksonLib.returnCorrectID" />
       <item itemvalue="TestNG.BodyTestWithJacksonLib.returnCorrectLogin" />
+      <item itemvalue="TestNG.Get200.returns200" />
+      <item itemvalue="TestNG.BodyTestWithSimpleMap" />
+      <item itemvalue="TestNG.BodyTestWithJacksonLib" />
+      <item itemvalue="TestNG.BodyTestWithJacksonLib.returnCorrectId" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.BodyTestWithJacksonLib" />
+        <item itemvalue="TestNG.BodyTestWithJacksonLib.returnCorrectId" />
         <item itemvalue="TestNG.BodyTestWithJacksonLib.returnCorrectLogin" />
-        <item itemvalue="TestNG.BodyTestWithJacksonLib.returnCorrectID" />
-        <item itemvalue="TestNG.Get401" />
-        <item itemvalue="JUnit.Get404" />
         <item itemvalue="TestNG.BodyTestWithSimpleMap" />
+        <item itemvalue="TestNG.Get200.returns200" />
       </list>
     </recent_temporary>
   </component>
@@ -440,51 +378,42 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="BodyTestWithSimpleMap_returnCorrectLogin - 2019.03.05 at 15h 17m 00s.xml">
-      <configuration name="BodyTestWithSimpleMap.returnCorrectLogin" configurationId="TestNG" />
+    <history-entry file="Get200_returns200 - 2019.03.05 at 16h 59m 56s.xml">
+      <configuration name="Get200.returns200" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="BodyTestWithSimpleMap - 2019.03.05 at 15h 17m 21s.xml">
+    <history-entry file="Get200_returns200 - 2019.03.05 at 17h 00m 39s.xml">
+      <configuration name="Get200.returns200" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="BodyTestWithSimpleMap - 2019.03.05 at 22h 20m 02s.xml">
       <configuration name="BodyTestWithSimpleMap" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="BodyTestWithSimpleMap - 2019.03.05 at 15h 18m 28s.xml">
-      <configuration name="BodyTestWithSimpleMap" configurationId="TestNG" />
+    <history-entry file="BodyTestWithJacksonLib_returnCorrectLogin - 2019.03.05 at 22h 20m 11s.xml">
+      <configuration name="BodyTestWithJacksonLib.returnCorrectLogin" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="Get404 - 2019.03.05 at 15h 29m 33s.xml">
-      <configuration name="Get404" configurationId="JUnit" />
+    <history-entry file="BodyTestWithJacksonLib_returnCorrectLogin - 2019.03.05 at 22h 20m 45s.xml">
+      <configuration name="BodyTestWithJacksonLib.returnCorrectLogin" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="Get404 - 2019.03.05 at 15h 29m 44s.xml">
-      <configuration name="Get404" configurationId="JUnit" />
+    <history-entry file="BodyTestWithJacksonLib - 2019.03.05 at 22h 22m 26s.xml">
+      <configuration name="BodyTestWithJacksonLib" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="Get401 - 2019.03.05 at 15h 30m 18s.xml">
-      <configuration name="Get401" configurationId="TestNG" />
+    <history-entry file="BodyTestWithJacksonLib - 2019.03.05 at 22h 27m 31s.xml">
+      <configuration name="BodyTestWithJacksonLib" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="Get401 - 2019.03.05 at 15h 30m 31s.xml">
-      <configuration name="Get401" configurationId="TestNG" />
+    <history-entry file="BodyTestWithJacksonLib_returnCorrectId - 2019.03.05 at 22h 30m 05s.xml">
+      <configuration name="BodyTestWithJacksonLib.returnCorrectId" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="Get401 - 2019.03.05 at 15h 30m 58s.xml">
-      <configuration name="Get401" configurationId="TestNG" />
+    <history-entry file="BodyTestWithJacksonLib_returnCorrectId - 2019.03.05 at 22h 30m 44s.xml">
+      <configuration name="BodyTestWithJacksonLib.returnCorrectId" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="BodyTestWithJacksonLib_returnCorrectID - 2019.03.05 at 16h 10m 13s.xml">
-      <configuration name="BodyTestWithJacksonLib.returnCorrectID" configurationId="TestNG" />
+    <history-entry file="BodyTestWithJacksonLib - 2019.03.05 at 22h 32m 21s.xml">
+      <configuration name="BodyTestWithJacksonLib" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="BodyTestWithJacksonLib_returnCorrectID - 2019.03.05 at 16h 10m 58s.xml">
-      <configuration name="BodyTestWithJacksonLib.returnCorrectID" configurationId="TestNG" />
-    </history-entry>
-  </component>
-  <component name="TodoView">
-    <todo-panel id="selected-file">
-      <is-autoscroll-to-source value="true" />
-    </todo-panel>
-    <todo-panel id="all">
-      <are-packages-shown value="true" />
-      <is-autoscroll-to-source value="true" />
-    </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="192" y="23" width="1173" height="716" extended-state="0" />
+    <frame x="375" y="23" width="1173" height="716" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49865952" visible="true" weight="0.25906277" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49865952" visible="true" weight="0.23342176" />
       <window_info id="Structure" order="1" sideWeight="0.50119334" side_tool="true" weight="0.32612783" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -493,7 +422,7 @@
       <window_info id="Favorites" order="6" sideWeight="0.5013405" side_tool="true" weight="0.32612783" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49962035" weight="0.32852563" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.48949918" visible="true" weight="0.40224358" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.48949918" visible="true" weight="0.40224358" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.45673078" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -501,7 +430,7 @@
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.53846157" />
       <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.5105008" side_tool="true" weight="0.40224358" />
       <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.48949918" weight="0.32852563" />
+      <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.48949918" weight="0.31733745" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -514,134 +443,11 @@
       <window_info anchor="right" id="Coverage" order="9" side_tool="true" weight="0.32956383" />
     </layout>
   </component>
-  <component name="XDebuggerManager">
-    <watches-manager>
-      <configuration name="JUnit">
-        <watch expression="response" />
-      </configuration>
-      <configuration name="TestNG">
-        <watch expression="response" />
-        <watch expression="response" />
-      </configuration>
-    </watches-manager>
-  </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/Test.class">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/encodings.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/compiler.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/target/test-classes/BaseClass.class" />
-    <entry file="file://$PROJECT_DIR$/target/test-classes/Get200.class" />
-    <entry file="file://$PROJECT_DIR$/target/test-classes/Get404.class" />
-    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/src.zip!/java/util/function/Predicate.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="48" column="12" selection-start-line="48" selection-start-column="12" selection-end-line="48" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/base/ResponseUtils.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="358">
-          <caret line="45" selection-start-line="45" selection-end-line="45" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="15" column="16" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/httpcomponents/httpclient/4.5.6/httpclient-4.5.6-sources.jar!/org/apache/http/client/HttpClient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1304">
-          <caret line="89" column="17" selection-start-line="89" selection-start-column="17" selection-end-line="89" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/base/BaseClass.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="121">
-          <caret line="22" selection-start-line="22" selection-end-line="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#713#714#0" expanded="true" />
-            <element signature="e#772#773#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/jre/lib/rt.jar!/sun/reflect/NativeMethodAccessorImpl.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="26" selection-start-line="26" selection-end-line="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/tests/Get404.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="173">
-          <caret line="20" column="79" selection-start-line="20" selection-start-column="79" selection-end-line="20" selection-end-column="79" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/tests/Get401.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="9">
-          <caret line="23" column="21" selection-start-line="23" selection-start-column="21" selection-end-line="23" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/tests/Get200.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="33" selection-start-line="33" selection-end-line="33" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="53" column="19" lean-forward="true" selection-start-line="53" selection-start-column="19" selection-end-line="53" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/base/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="41" selection-start-line="6" selection-start-column="41" selection-end-line="6" selection-end-column="41" />
-          <folding>
-            <element signature="e#246#247#0" expanded="true" />
-            <element signature="e#274#275#0" expanded="true" />
-            <element signature="e#300#301#0" expanded="true" />
-            <element signature="e#325#326#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/tests/ResponseHeaders.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
+        <state relative-caret-position="-629">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -650,101 +456,23 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/tests/BodyTestWithSimpleMap.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="157">
-          <caret line="47" column="63" selection-start-line="47" selection-start-column="56" selection-end-line="47" selection-end-column="63" />
+        <state relative-caret-position="107">
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#753#754#0" expanded="true" />
-            <element signature="e#771#772#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/tests/BodyTestWithJacksonLib.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="38" column="42" selection-start-line="38" selection-start-column="42" selection-end-line="38" selection-end-column="42" />
+        <state relative-caret-position="225">
+          <caret line="21" column="25" selection-start-line="21" selection-start-column="25" selection-end-line="21" selection-end-column="25" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-  </component>
-  <component name="masterDetails">
-    <states>
-      <state key="ArtifactsStructureConfigurable.UI">
-        <settings>
-          <artifact-editor />
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="FacetStructureConfigurable.UI">
-        <settings>
-          <last-edited>No facets are configured</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="GlobalLibrariesConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="JdkListConfigurable.UI">
-        <settings>
-          <last-edited>1.8</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ModuleStructureConfigurable.UI">
-        <settings>
-          <last-edited>WebApiAutomation</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-                <option value="0.6" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ProjectLibrariesConfigurable.UI">
-        <settings>
-          <last-edited>Maven: com.beust:jcommander:1.72</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-    </states>
   </component>
 </project>

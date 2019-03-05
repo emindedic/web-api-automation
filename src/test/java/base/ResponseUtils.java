@@ -61,7 +61,7 @@ public class ResponseUtils {
 
     //Unmarshall method
 
-    public User unmarshall(CloseableHttpResponse response, Class<User> userClass) throws IOException {
+    public static User unmarshall(CloseableHttpResponse response, Class<User> userClass) throws IOException {
         String jsonBody = EntityUtils.toString(response.getEntity());
 
         return new ObjectMapper()

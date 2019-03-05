@@ -1,6 +1,7 @@
 package tests;
 
 import base.BaseClass;
+import base.ResponseUtils;
 import base.User;
 import com.fasterxml.jackson.databind.DeserializationFeature;
 import com.fasterxml.jackson.databind.ObjectMapper;
@@ -13,6 +14,8 @@ import org.testng.annotations.Test;
 
 import java.io.IOException;
 
+import static base.ResponseUtils.unmarshall;
+
 public class BodyTestWithJacksonLib extends BaseClass {
 
     @Test
@@ -24,21 +27,17 @@ public class BodyTestWithJacksonLib extends BaseClass {
         User user = unmarshall(response, User.class);
 
         Assert.assertEquals(user.getLogin(), "emindedic");
-
-        unmarshall(response, User.class);
     }
 
+    @Test
+    public void returnCorrectId() throws IOException {
+        HttpGet get =  new HttpGet(BASE_ENDPOINT + "/users/emindedic");
 
+        response = client.execute(get);
 
-    private User unmarshall(CloseableHttpResponse response, Class<User> userClass) throws IOException {
-        String jsonBody = EntityUtils.toString(response.getEntity());
+        User user = unmarshall(response, User.class);
 
-        return new ObjectMapper()
-                // Tell Jackson to not fail if it finds unused fields
-                .configure(DeserializationFeature.FAIL_ON_UNKNOWN_PROPERTIES, false)
-
-                .readValue(jsonBody, userClass);
-
+        Assert.assertEquals(user.getId(), 5750725);
 
     }
 }
