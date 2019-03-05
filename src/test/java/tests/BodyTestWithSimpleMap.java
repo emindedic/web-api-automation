@@ -3,20 +3,33 @@ package tests;
 import base.BaseClass;
 import org.apache.http.client.methods.HttpGet;
 import org.apache.http.util.EntityUtils;
-import org.junit.Test;
+import org.json.JSONObject;
+import org.testng.Assert;
+import org.testng.annotations.Test;
+
 import java.io.IOException;
+
 
 public class BodyTestWithSimpleMap extends BaseClass {
 
     @Test
     public void returnCorrectLogin() throws IOException {
 
-        HttpGet get = new HttpGet(BASE_ENDPOINT + "/users/emindedic");
-        response = client.execute(get);
+        HttpGet getBody = new HttpGet(BASE_ENDPOINT + "/users/emindedic");
+        response = client.execute(getBody);
 
         String jsonBody = EntityUtils.toString(response.getEntity());
-        System.out.println(jsonBody);
+        System.out.println(response);
 
+
+        JSONObject jsonObject = new JSONObject(jsonBody);
+
+        String loginValue = (String) getValueFor(jsonObject, "login");
+        Assert.assertEquals(loginValue, "emindedic");
+    }
+
+    private Object getValueFor(JSONObject jsonObject, String login) {
+        return jsonObject.get(login);
     }
 
 }
