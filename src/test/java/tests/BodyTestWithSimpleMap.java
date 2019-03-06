@@ -23,8 +23,7 @@ public class BodyTestWithSimpleMap extends BaseClass {
 
         String jsonBody = EntityUtils.toString(response.getEntity());
         System.out.println(response);
-
-
+        
         JSONObject jsonObject = new JSONObject(jsonBody);
 
         String loginValue = (String) getValueFor(jsonObject, LOGIN);

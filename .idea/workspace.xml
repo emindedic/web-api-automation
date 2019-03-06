@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="35754cca-46cf-4366-8018-1d2af984c39c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/baseMethods/RestAssured.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/tests/BodyTestWithAssured.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/baseClasses/RateLimit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/baseClasses/RateLimit.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/baseClasses/RateLimit.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/baseClasses/RateLimit.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/BodyTestWithSimpleMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/BodyTestWithSimpleMap.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="SHOW_DIALOG" value="false" />
@@ -28,6 +23,18 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="293">
               <caret line="60" selection-start-line="60" selection-end-line="60" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/tests/BodyTestWithSimpleMap.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="126">
+              <caret line="25" column="8" selection-start-line="25" selection-start-column="8" selection-end-line="25" selection-end-column="8" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -60,10 +67,10 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/tests/BodyTestWithAssured.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="154">
+            <state relative-caret-position="146">
               <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -76,7 +83,7 @@
         <entry file="file://$PROJECT_DIR$/src/test/java/baseMethods/RestAssured.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="105">
-              <caret line="7" column="4" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="4" />
+              <caret line="7" selection-start-line="7" selection-end-line="7" />
             </state>
           </provider>
         </entry>
@@ -84,7 +91,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/baseMethods/ResponseUtils.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-758">
+            <state relative-caret-position="-665">
               <caret line="13" column="26" selection-start-line="13" selection-start-column="26" selection-end-line="13" selection-end-column="26" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -126,18 +133,6 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/tests/Get200.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="288">
-              <caret line="29" selection-start-line="29" selection-end-line="29" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
     </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
@@ -156,7 +151,6 @@
         <option value="$PROJECT_DIR$/src/test/java/tests/NotFound.java" />
         <option value="$PROJECT_DIR$/src/test/java/base/NotFound.java" />
         <option value="$PROJECT_DIR$/src/test/java/base/ResponseUtils.java" />
-        <option value="$PROJECT_DIR$/src/test/java/tests/BodyTestWithSimpleMap.java" />
         <option value="$PROJECT_DIR$/src/test/java/tests/ResponseHeaders.java" />
         <option value="$PROJECT_DIR$/src/test/java/baseMethods/ResponseUtils.java" />
         <option value="$PROJECT_DIR$/src/test/java/baseClasses/NotFound.java" />
@@ -169,6 +163,7 @@
         <option value="$PROJECT_DIR$/src/test/java/baseMethods/BaseClass.java" />
         <option value="$PROJECT_DIR$/src/test/java/tests/BodyTestWithAssured.java" />
         <option value="$PROJECT_DIR$/src/test/java/baseMethods/RestAssured.java" />
+        <option value="$PROJECT_DIR$/src/test/java/tests/BodyTestWithSimpleMap.java" />
       </list>
     </option>
   </component>
@@ -269,7 +264,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551861697659" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551864364248" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/src/main/java" />
   </component>
   <component name="RecentsManager">
@@ -411,9 +406,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="BodyTestWithAssured_WeatherMessageBody - 2019.03.06 at 09h 12m 09s.xml">
-      <configuration name="BodyTestWithAssured.WeatherMessageBody" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="BodyTestWithAssured_WeatherMessageBody - 2019.03.06 at 09h 12m 37s.xml">
       <configuration name="BodyTestWithAssured.WeatherMessageBody" configurationId="TestNG" />
     </history-entry>
@@ -439,6 +431,9 @@
       <configuration name="BodyTestWithAssured.gitHubMessageBody" configurationId="TestNG" />
     </history-entry>
     <history-entry file="BodyTestWithAssured_gitHubMessageBody - 2019.03.06 at 09h 33m 32s.xml">
+      <configuration name="BodyTestWithAssured.gitHubMessageBody" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="BodyTestWithAssured_gitHubMessageBody - 2019.03.06 at 09h 41m 04s.xml">
       <configuration name="BodyTestWithAssured.gitHubMessageBody" configurationId="TestNG" />
     </history-entry>
   </component>
@@ -481,16 +476,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="124">
           <caret line="16" selection-start-line="16" selection-end-line="16" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/tests/BodyTestWithSimpleMap.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="735">
-          <caret line="51" column="5" selection-start-line="51" selection-start-column="5" selection-end-line="51" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -562,16 +547,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/baseMethods/ResponseUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-758">
-          <caret line="13" column="26" selection-start-line="13" selection-start-column="26" selection-end-line="13" selection-end-column="26" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/baseMethods/BaseClass.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
@@ -592,17 +567,37 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/baseMethods/ResponseUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-665">
+          <caret line="13" column="26" selection-start-line="13" selection-start-column="26" selection-end-line="13" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/baseMethods/RestAssured.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
-          <caret line="7" column="4" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="4" />
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/tests/BodyTestWithAssured.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
+        <state relative-caret-position="146">
           <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/tests/BodyTestWithSimpleMap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="25" column="8" selection-start-line="25" selection-start-column="8" selection-end-line="25" selection-end-column="8" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
