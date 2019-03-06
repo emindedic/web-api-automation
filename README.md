@@ -2,6 +2,7 @@
 # Web API Test Automation in Java
 
 1. Install IntelliJ IDEA
+* Create new maven project
 
 2. Add TestNG and Apache HttpClient to pom.xml file from https://mvnrepository.com/
 ```
