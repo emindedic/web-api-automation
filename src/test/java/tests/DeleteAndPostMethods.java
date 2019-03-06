@@ -35,25 +35,24 @@ public class DeleteAndPostMethods extends BaseClass {
     public void createRepoReturn201() throws IOException {
 
         //Create an HttpPost with a valid endpoint
-        HttpPost request = new HttpPost("https://api.github.com/users/repos");
+        HttpPost request = new HttpPost("https://api.github.com/user/repos");
 
         // Set the Basic Auth Header
         String auth = Credentials.EMAIL + ":" + Credentials.PASSWORD;
+
         //Encrypt password
         byte[] encodedAuth = Base64.encodeBase64(auth.getBytes(Charset.forName("ISO-8859-1")));
-        String authHeader = "Basic" + new String(encodedAuth);
+        String authHeader = "Basic " + new String(encodedAuth);
 
 
         request.setHeader(HttpHeaders.AUTHORIZATION, authHeader);
 
         // Define JSON to Post and set as Entity
-
         String json = "{\"name\": \"proba\"}";
 
         request.setEntity(new StringEntity(json, ContentType.APPLICATION_JSON));
 
         //Send it
-
         response = client.execute(request);
 
         int actualStatusCode = response.getStatusLine().getStatusCode();

@@ -2,7 +2,7 @@ package baseMethods;
 
 public class Credentials {
 
-    public static final String TOKEN = "<token>";
-    public static final String EMAIL = "<mail>";
-    public static final String PASSWORD = "<pass>";
+    public static final String TOKEN = "<enter_token>";
+    public static final String EMAIL = "<enter_email>";
+    public static final String PASSWORD = "<enter_pass>";
 }

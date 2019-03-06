@@ -45,6 +45,7 @@ public class BodyTestWithSimpleMap extends BaseClass {
 
         Integer loginValue = (Integer) getValueFor(jsonObject, ID);
         Assert.assertEquals(loginValue, Integer.valueOf(5750725));
+        System.out.println("\n\n Request returns correct user id");
     }
 
     private Object getValueFor(JSONObject jsonObject, String login) {
