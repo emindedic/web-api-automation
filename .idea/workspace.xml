@@ -2,29 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="35754cca-46cf-4366-8018-1d2af984c39c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/baseClasses/RateLimit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/baseMethods/RestAssured.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/tests/BodyTestWithAssured.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/base/BaseClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/baseMethods/BaseClass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/base/NotFound.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/baseClasses/NotFound.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/base/ResponseUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/baseMethods/ResponseUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/base/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/baseClasses/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/BodyTestWithJacksonLib.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/BodyTestWithJacksonLib.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/BodyTestWithSimpleMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/BodyTestWithSimpleMap.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/Get200.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/Get200.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/Get401.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/Get401.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/Get404.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/Get404.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/ResponseHeaders.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/ResponseHeaders.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/base/BaseClass.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/base/NotFound.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/base/ResponseUtils.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/base/User.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/BodyTestWithJacksonLib.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/tests/BodyTestWithJacksonLib.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/BodyTestWithSimpleMap.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/tests/BodyTestWithSimpleMap.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/Get200.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/tests/Get200.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/Get401.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/tests/Get401.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/Get404.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/tests/Get404.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/ResponseHeaders.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/tests/ResponseHeaders.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/baseClasses/RateLimit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/baseClasses/RateLimit.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/baseClasses/RateLimit.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/baseClasses/RateLimit.class" afterDir="false" />
     </list>
+    <ignored path="$PROJECT_DIR$/target/" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -39,34 +24,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/tests/BodyTestWithSimpleMap.java">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="735">
-              <caret line="51" column="5" selection-start-line="51" selection-start-column="5" selection-end-line="51" selection-end-column="5" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/baseClasses/User.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/baseClasses/NotFound.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="32" selection-start-line="6" selection-start-column="32" selection-end-line="6" selection-end-column="32" />
-              <folding>
-                <element signature="e#135#136#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="293">
+              <caret line="60" selection-start-line="60" selection-end-line="60" />
             </state>
           </provider>
         </entry>
@@ -74,8 +35,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/tests/BodyTestWithJacksonLib.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="158">
-              <caret line="60" column="51" lean-forward="true" selection-start-line="60" selection-start-column="51" selection-end-line="60" selection-end-column="51" />
+            <state relative-caret-position="223">
+              <caret line="21" column="48" selection-start-line="21" selection-start-column="35" selection-end-line="21" selection-end-column="48" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -83,11 +44,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/baseClasses/RateLimit.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="113">
-              <caret line="21" column="35" selection-start-line="21" selection-start-column="35" selection-end-line="21" selection-end-column="35" />
+            <state relative-caret-position="86">
+              <caret line="10" selection-start-line="10" selection-end-line="10" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#146#147#0" expanded="true" />
@@ -99,11 +60,44 @@
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/tests/BodyTestWithAssured.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="154">
+              <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/baseMethods/RestAssured.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="7" column="4" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/baseMethods/ResponseUtils.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
+            <state relative-caret-position="-758">
               <caret line="13" column="26" selection-start-line="13" selection-start-column="26" selection-end-line="13" selection-end-column="26" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/baseMethods/BaseClass.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -127,20 +121,6 @@
               <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/baseMethods/BaseClass.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-52">
-              <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#713#714#0" expanded="true" />
-                <element signature="e#772#773#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -184,7 +164,11 @@
         <option value="$PROJECT_DIR$/src/main/java/baseMethods/ResponseUtils.java" />
         <option value="$PROJECT_DIR$/src/test/java/tests/Get200.java" />
         <option value="$PROJECT_DIR$/src/test/java/tests/BodyTestWithJacksonLib.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/test/java/baseClasses/RateLimit.java" />
+        <option value="$PROJECT_DIR$/src/test/java/baseMethods/BaseClass.java" />
+        <option value="$PROJECT_DIR$/src/test/java/tests/BodyTestWithAssured.java" />
+        <option value="$PROJECT_DIR$/src/test/java/baseMethods/RestAssured.java" />
       </list>
     </option>
   </component>
@@ -196,8 +180,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="359" />
-    <option name="y" value="23" />
+    <option name="x" value="147" />
+    <option name="y" value="72" />
     <option name="width" value="1173" />
     <option name="height" value="716" />
   </component>
@@ -285,7 +269,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551824891975" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551861697659" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/src/main/java" />
   </component>
   <component name="RecentsManager">
@@ -307,17 +291,71 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.BodyTestWithJacksonLib.correctRateLimitAreSet">
-    <configuration name="BodyTestWithJacksonLib" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.BodyTestWithAssured.gitHubMessageBody">
+    <configuration name="BodyTestWithAssured" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="WebApiAutomation" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="baseClasses.*" />
+          <option name="PATTERN" value="tests.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="tests" />
-      <option name="MAIN_CLASS_NAME" value="tests.BodyTestWithJacksonLib" />
+      <option name="MAIN_CLASS_NAME" value="tests.BodyTestWithAssured" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BodyTestWithAssured.VerifyCityInJsonResponse" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="WebApiAutomation" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.BodyTestWithAssured" />
+      <option name="METHOD_NAME" value="VerifyCityInJsonResponse" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BodyTestWithAssured.WeatherMessageBody" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="WebApiAutomation" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.BodyTestWithAssured" />
+      <option name="METHOD_NAME" value="WeatherMessageBody" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BodyTestWithAssured.gitHubMessageBody" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="WebApiAutomation" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.BodyTestWithAssured" />
+      <option name="METHOD_NAME" value="gitHubMessageBody" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
@@ -342,72 +380,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BodyTestWithJacksonLib.notFoundMessageIsCorrect" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="WebApiAutomation" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="tests" />
-      <option name="MAIN_CLASS_NAME" value="tests.BodyTestWithJacksonLib" />
-      <option name="METHOD_NAME" value="notFoundMessageIsCorrect" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="BodyTestWithJacksonLib.returnCorrectId" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="WebApiAutomation" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="baseClasses.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="tests" />
-      <option name="MAIN_CLASS_NAME" value="tests.BodyTestWithJacksonLib" />
-      <option name="METHOD_NAME" value="returnCorrectId" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="BodyTestWithSimpleMap" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="WebApiAutomation" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="baseClasses.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="tests" />
-      <option name="MAIN_CLASS_NAME" value="tests.BodyTestWithSimpleMap" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
-      <item itemvalue="TestNG.BodyTestWithSimpleMap" />
-      <item itemvalue="TestNG.BodyTestWithJacksonLib" />
-      <item itemvalue="TestNG.BodyTestWithJacksonLib.returnCorrectId" />
-      <item itemvalue="TestNG.BodyTestWithJacksonLib.notFoundMessageIsCorrect" />
       <item itemvalue="TestNG.BodyTestWithJacksonLib.correctRateLimitAreSet" />
+      <item itemvalue="TestNG.BodyTestWithAssured.WeatherMessageBody" />
+      <item itemvalue="TestNG.BodyTestWithAssured" />
+      <item itemvalue="TestNG.BodyTestWithAssured.gitHubMessageBody" />
+      <item itemvalue="TestNG.BodyTestWithAssured.VerifyCityInJsonResponse" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.BodyTestWithAssured.gitHubMessageBody" />
+        <item itemvalue="TestNG.BodyTestWithAssured.VerifyCityInJsonResponse" />
+        <item itemvalue="TestNG.BodyTestWithAssured" />
+        <item itemvalue="TestNG.BodyTestWithAssured.WeatherMessageBody" />
         <item itemvalue="TestNG.BodyTestWithJacksonLib.correctRateLimitAreSet" />
-        <item itemvalue="TestNG.BodyTestWithJacksonLib.returnCorrectId" />
-        <item itemvalue="TestNG.BodyTestWithSimpleMap" />
-        <item itemvalue="TestNG.BodyTestWithJacksonLib" />
-        <item itemvalue="TestNG.BodyTestWithJacksonLib.notFoundMessageIsCorrect" />
       </list>
     </recent_temporary>
   </component>
@@ -425,39 +411,39 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="BodyTestWithJacksonLib_returnCorrectId - 2019.03.05 at 22h 30m 05s.xml">
-      <configuration name="BodyTestWithJacksonLib.returnCorrectId" configurationId="TestNG" />
+    <history-entry file="BodyTestWithAssured_WeatherMessageBody - 2019.03.06 at 09h 12m 09s.xml">
+      <configuration name="BodyTestWithAssured.WeatherMessageBody" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="BodyTestWithJacksonLib_returnCorrectId - 2019.03.05 at 22h 30m 44s.xml">
-      <configuration name="BodyTestWithJacksonLib.returnCorrectId" configurationId="TestNG" />
+    <history-entry file="BodyTestWithAssured_WeatherMessageBody - 2019.03.06 at 09h 12m 37s.xml">
+      <configuration name="BodyTestWithAssured.WeatherMessageBody" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="BodyTestWithJacksonLib - 2019.03.05 at 22h 32m 21s.xml">
-      <configuration name="BodyTestWithJacksonLib" configurationId="TestNG" />
+    <history-entry file="BodyTestWithAssured - 2019.03.06 at 09h 16m 52s.xml">
+      <configuration name="BodyTestWithAssured" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="BodyTestWithJacksonLib_notFoundMessageIsCorrect - 2019.03.05 at 22h 52m 27s.xml">
-      <configuration name="BodyTestWithJacksonLib.notFoundMessageIsCorrect" configurationId="TestNG" />
+    <history-entry file="BodyTestWithAssured_gitHubMessageBody - 2019.03.06 at 09h 24m 19s.xml">
+      <configuration name="BodyTestWithAssured.gitHubMessageBody" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="BodyTestWithJacksonLib_notFoundMessageIsCorrect - 2019.03.05 at 22h 52m 57s.xml">
-      <configuration name="BodyTestWithJacksonLib.notFoundMessageIsCorrect" configurationId="TestNG" />
+    <history-entry file="BodyTestWithAssured_gitHubMessageBody - 2019.03.06 at 09h 26m 57s.xml">
+      <configuration name="BodyTestWithAssured.gitHubMessageBody" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="BodyTestWithJacksonLib_notFoundMessageIsCorrect - 2019.03.05 at 22h 56m 42s.xml">
-      <configuration name="BodyTestWithJacksonLib.notFoundMessageIsCorrect" configurationId="TestNG" />
+    <history-entry file="BodyTestWithAssured_gitHubMessageBody - 2019.03.06 at 09h 27m 45s.xml">
+      <configuration name="BodyTestWithAssured.gitHubMessageBody" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="BodyTestWithJacksonLib - 2019.03.05 at 23h 07m 30s.xml">
-      <configuration name="BodyTestWithJacksonLib" configurationId="TestNG" />
+    <history-entry file="BodyTestWithAssured_VerifyCityInJsonResponse - 2019.03.06 at 09h 28m 29s.xml">
+      <configuration name="BodyTestWithAssured.VerifyCityInJsonResponse" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="BodyTestWithJacksonLib_returnCorrectId - 2019.03.05 at 23h 12m 45s.xml">
-      <configuration name="BodyTestWithJacksonLib.returnCorrectId" configurationId="TestNG" />
+    <history-entry file="BodyTestWithAssured_gitHubMessageBody - 2019.03.06 at 09h 30m 40s.xml">
+      <configuration name="BodyTestWithAssured.gitHubMessageBody" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="BodyTestWithJacksonLib_correctRateLimitAreSet - 2019.03.05 at 23h 20m 20s.xml">
-      <configuration name="BodyTestWithJacksonLib.correctRateLimitAreSet" configurationId="TestNG" />
+    <history-entry file="BodyTestWithAssured_gitHubMessageBody - 2019.03.06 at 09h 32m 57s.xml">
+      <configuration name="BodyTestWithAssured.gitHubMessageBody" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="BodyTestWithJacksonLib_correctRateLimitAreSet - 2019.03.05 at 23h 21m 36s.xml">
-      <configuration name="BodyTestWithJacksonLib.correctRateLimitAreSet" configurationId="TestNG" />
+    <history-entry file="BodyTestWithAssured_gitHubMessageBody - 2019.03.06 at 09h 33m 32s.xml">
+      <configuration name="BodyTestWithAssured.gitHubMessageBody" configurationId="TestNG" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="359" y="23" width="1173" height="716" extended-state="0" />
+    <frame x="147" y="72" width="1173" height="716" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49865952" visible="true" weight="0.2086649" />
@@ -491,13 +477,6 @@
     </layout>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="31" selection-start-line="14" selection-start-column="31" selection-end-line="14" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/tests/ResponseHeaders.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="124">
@@ -508,32 +487,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/baseMethods/BaseClass.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-52">
-          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#713#714#0" expanded="true" />
-            <element signature="e#772#773#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/tests/BodyTestWithSimpleMap.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="735">
           <caret line="51" column="5" selection-start-line="51" selection-start-column="5" selection-end-line="51" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/baseMethods/ResponseUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="13" column="26" selection-start-line="13" selection-start-column="26" selection-end-line="13" selection-end-column="26" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -584,26 +541,70 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/tests/BodyTestWithJacksonLib.java">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="158">
-          <caret line="60" column="51" lean-forward="true" selection-start-line="60" selection-start-column="51" selection-end-line="60" selection-end-column="51" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="293">
+          <caret line="60" selection-start-line="60" selection-end-line="60" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/baseClasses/RateLimit.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="113">
-          <caret line="21" column="35" selection-start-line="21" selection-start-column="35" selection-end-line="21" selection-end-column="35" />
+        <state relative-caret-position="86">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#146#147#0" expanded="true" />
             <element signature="e#178#179#0" expanded="true" />
             <element signature="e#225#226#0" expanded="true" />
             <element signature="e#258#259#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/baseMethods/ResponseUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-758">
+          <caret line="13" column="26" selection-start-line="13" selection-start-column="26" selection-end-line="13" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/baseMethods/BaseClass.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/tests/BodyTestWithJacksonLib.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="223">
+          <caret line="21" column="48" selection-start-line="21" selection-start-column="35" selection-end-line="21" selection-end-column="48" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/baseMethods/RestAssured.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="4" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/tests/BodyTestWithAssured.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
