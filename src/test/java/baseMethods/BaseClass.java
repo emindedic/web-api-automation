@@ -13,6 +13,7 @@ import java.io.IOException;
 public class BaseClass {
 
     protected static final String BASE_ENDPOINT = "https://api.github.com";
+    protected static final String TOKEN = "<Enter your own token>";
 
     protected CloseableHttpClient client;
     protected CloseableHttpResponse response;
