@@ -34,3 +34,15 @@
             <version>2.9.8</version>
         </dependency>
 ```
+4. For testing REST services with Rest Assured fw, impot mvn dependency to pom.xml:
+```
+<!-- https://mvnrepository.com/artifact/io.rest-assured/rest-assured -->
+<dependency>
+    <groupId>io.rest-assured</groupId>
+    <artifactId>rest-assured</artifactId>
+    <version>3.3.0</version>
+    <scope>test</scope>
+</dependency>
+
+```
+ 
